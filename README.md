@@ -50,7 +50,8 @@ Use command to run
 ```
 docker run -ti collect mem
 ```
-or```
+or
+```
 docker run -ti collect cpu
 ```
 
