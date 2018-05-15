@@ -38,9 +38,21 @@ free: 2594
 shared: 11
 ```
 
+## Build
+```
+docker build -t collect .
+```
+
+
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Use command to run 
+```
+docker run -ti collect mem
+```
+or```
+docker run -ti collect cpu
+```
 
 ## Authors
 
